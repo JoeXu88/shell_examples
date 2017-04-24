@@ -2,7 +2,7 @@
 
 #`` same with $()
 varp=`grep "/mnt/T" /proc/mounts`
-vard=$(grep "VISUALON" /proc/mounts)
+vard=$(grep "some_info" /proc/mounts)
 mounts=0
 
 if [ -n "$varp" -a ${#vard} -ne 0 ]
